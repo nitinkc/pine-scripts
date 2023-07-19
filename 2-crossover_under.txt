@@ -1,0 +1,3 @@
+//Booleans
+buyEntry = ta.crossover(typicalPrice, lower) //When the price breaks the lower Bollinger Band -> Buy signal
+sellEntry = ta.crossunder(typicalPrice, upper) // Sell Signal when the price breaks the upper BB

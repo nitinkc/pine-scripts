@@ -1,0 +1,14 @@
+//@version=5
+indicator("Example - ta.highest", overlay=true)
+
+prevHighValue = ta.highest(high, 1)
+plot(prevHighValue, title="Highest High", color=color.blue, linewidth=2, style = plot.style_circles)
+
+prevLowValue = ta.lowest(low,1)
+plot(prevLowValue, title="Lowest Low", color=color.red, linewidth=2, style = plot.style_circles)
+
+currentOpenPrice = open[0]
+plot(currentOpenPrice, title="Highest High", color=color.black, linewidth=2, style = plot.style_circles)
+
+currentClosePrice = close[0]
+plot(currentClosePrice, title="Highest High", color=color.lime, linewidth=2, style = plot.style_cross)

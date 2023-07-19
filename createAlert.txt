@@ -1,0 +1,5 @@
+Red Candle chart - 10 mins
+
+Bollinger band lower cuts - 5%
+
+Create an Alert = Possible BUY signal generate
